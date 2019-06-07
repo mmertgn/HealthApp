@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Sağlığım" />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/icons8_account_24"
+        android:title="Profil" />
+
+    <item
+        android:id="@+id/navigation_about"
+        android:icon="@drawable/icons8_health_book_24"
+        android:title="Hakkımızda" />
+
+    <item
+        android:id="@+id/navigation_warning"
+        android:icon="@drawable/icons8_heart_health_24"
+        android:title="Yasal Uyarı" />
+</menu>

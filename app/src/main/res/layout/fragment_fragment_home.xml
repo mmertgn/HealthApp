@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_assets_1"
+    tools:context=".FragmentHome" >
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btnSuTakibi"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="24dp"
+            android:background="@color/color_assets_1"
+            android:foreground="@drawable/pill_m"
+            android:foregroundGravity="center"
+            android:paddingTop="85dp"
+            android:text="Su Takibi"
+            android:textColor="@color/color_assets_6"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="@+id/btnEgzersiz"
+            app:layout_constraintStart_toStartOf="@+id/btnEgzersiz"
+            app:layout_constraintTop_toBottomOf="@+id/btnEgzersiz" />
+
+        <Button
+            android:id="@+id/btnTansiyon"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginEnd="45dp"
+            android:layout_marginRight="45dp"
+            android:background="@color/color_assets_1"
+            android:foreground="@drawable/hospital_m"
+            android:foregroundGravity="center"
+            android:paddingTop="85dp"
+            android:text="Tansiyonum"
+            android:textColor="@color/color_assets_6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btnKanSekeri"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_marginStart="45dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="70dp"
+            android:background="@color/color_assets_1"
+            android:foreground="@drawable/surgeon_m"
+            android:foregroundGravity="center"
+            android:paddingTop="85dp"
+            android:text="Kan Şekerim"
+            android:textColor="@color/color_assets_6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btnEgzersiz"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="24dp"
+            android:background="@color/color_assets_1"
+            android:foreground="@drawable/medical_history_m"
+            android:foregroundGravity="center"
+            android:paddingTop="85dp"
+            android:text="Egzersiz Takibi"
+            android:textColor="@color/color_assets_6"
+            app:layout_constraintEnd_toEndOf="@+id/btnTansiyon"
+            app:layout_constraintStart_toStartOf="@+id/btnTansiyon"
+            app:layout_constraintTop_toBottomOf="@+id/btnTansiyon" />
+
+        <Button
+            android:id="@+id/btnHba1c"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="24dp"
+            android:background="@color/color_assets_1"
+            android:foreground="@drawable/ambulance_m"
+            android:foregroundGravity="center"
+            android:paddingTop="85dp"
+            android:text="HBA1C  Değerlerim"
+            android:textColor="@color/color_assets_6"
+            app:layout_constraintEnd_toEndOf="@+id/btnKitleEndeksi"
+            app:layout_constraintStart_toStartOf="@+id/btnKitleEndeksi"
+            app:layout_constraintTop_toBottomOf="@+id/btnKitleEndeksi" />
+
+        <Button
+            android:id="@+id/btnKitleEndeksi"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="24dp"
+            android:background="@color/color_assets_1"
+            android:foreground="@drawable/first_aid_kit_m"
+            android:foregroundGravity="center"
+            android:paddingTop="85dp"
+            android:text="VKİ Endeksi"
+            android:textColor="@color/color_assets_6"
+            app:layout_constraintEnd_toEndOf="@+id/btnKanSekeri"
+            app:layout_constraintStart_toStartOf="@+id/btnKanSekeri"
+            app:layout_constraintTop_toBottomOf="@+id/btnKanSekeri" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</FrameLayout>
