@@ -48,4 +48,13 @@ public class Tansiyon {
     private String Saat;
     private String BuyukTansiyon;
     private String KucukTansiyon;
+    private int KullaniciId;
+
+    public int getKullaniciId() {
+        return KullaniciId;
+    }
+
+    public void setKullaniciId(int kullaniciId) {
+        KullaniciId = kullaniciId;
+    }
 }

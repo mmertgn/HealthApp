@@ -10,7 +10,7 @@ public class KanSekeri {
     private String Tarih;
     private String ZamanDilimi;
     private String KanSekeriDegeri;
-
+private int KullaniciId;
     public KanSekeri() {
 
     }
@@ -39,4 +39,11 @@ public class KanSekeri {
         KanSekeriDegeri = kanSekeriDegeri;
     }
 
+    public int getKullaniciId() {
+        return KullaniciId;
+    }
+
+    public void setKullaniciId(int kullaniciId) {
+        KullaniciId = kullaniciId;
+    }
 }

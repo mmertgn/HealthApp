@@ -106,7 +106,7 @@ public class SuTakibiFragment extends Fragment {
                                     model.setTarih("-");
                                     e.printStackTrace();
                                 }
-                                model.setGunlukToplamBardak(object.getString("GunlukToplamBardak"));
+                                model.setGunlukToplamBardak(object.getInt("GunlukToplamBardak"));
                                 list.add(model);
                             }
 
@@ -151,7 +151,7 @@ public class SuTakibiFragment extends Fragment {
         @Override
         public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
             String tarih = getItem(position).getTarih();
-            String SuTakibi = getItem(position).getGunlukToplamBardak();
+            int SuTakibi = getItem(position).getGunlukToplamBardak();
             LayoutInflater layoutInflater = (LayoutInflater) getActivity().getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 
             View row = layoutInflater.inflate(R.layout.lst_su_takibi_row, parent, false);

@@ -1,22 +1,22 @@
 package com.example.healthapp.Entities;
 
 public class SuTakibi {
-    public SuTakibi(String gunlukToplamBardak, String tarih) {
+    public SuTakibi(int gunlukToplamBardak, String tarih) {
         GunlukToplamBardak = gunlukToplamBardak;
         Tarih = tarih;
     }
 
-    private String GunlukToplamBardak;
+    private int GunlukToplamBardak;
 
     public SuTakibi() {
 
     }
 
-    public String getGunlukToplamBardak() {
+    public int getGunlukToplamBardak() {
         return GunlukToplamBardak;
     }
 
-    public void setGunlukToplamBardak(String gunlukToplamBardak) {
+    public void setGunlukToplamBardak(int gunlukToplamBardak) {
         GunlukToplamBardak = gunlukToplamBardak;
     }
 
@@ -29,4 +29,13 @@ public class SuTakibi {
     }
 
     private String Tarih;
+    private int KullaniciId;
+
+    public int getKullaniciId() {
+        return KullaniciId;
+    }
+
+    public void setKullaniciId(int kullaniciId) {
+        KullaniciId = kullaniciId;
+    }
 }

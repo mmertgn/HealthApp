@@ -2,7 +2,7 @@ package com.example.healthapp.Entities;
 
 public class Egzersiz {
     private String Tarih;
-
+private int KullaniciId;
     public Egzersiz() {
 
     }
@@ -39,4 +39,12 @@ public class Egzersiz {
 
     private String EgzersizTipi;
     private String Sure;
+
+    public int getKullaniciId() {
+        return KullaniciId;
+    }
+
+    public void setKullaniciId(int kullaniciId) {
+        KullaniciId = kullaniciId;
+    }
 }

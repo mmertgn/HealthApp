@@ -7,6 +7,7 @@ public class VkiEndeksi {
     private String Kilo;
     private String VkiEndeksi;
     private String VkiDurumu;
+    private int KullaniciId;
     public VkiEndeksi() {
 
     }
@@ -64,5 +65,13 @@ public class VkiEndeksi {
 
     public void setVkiDurumu(String vkiDurumu) {
         VkiDurumu = vkiDurumu;
+    }
+
+    public int getKullaniciId() {
+        return KullaniciId;
+    }
+
+    public void setKullaniciId(int kullaniciId) {
+        KullaniciId = kullaniciId;
     }
 }

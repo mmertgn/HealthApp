@@ -49,7 +49,7 @@ public class TansiyonFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_tansiyon, container, false);
-        progressBar = rootView.findViewById(R.id.progressBarTansiyon);
+        progressBar = rootView.findViewById(R.id.progressBarHba1c);
         mBtnTansiyonEkle = rootView.findViewById(R.id.btnTansiyonEkle);
         mBtnTansiyonEkle.setOnClickListener(v -> {
             Fragment tansiyonFragment = new TansiyonEkleFragment();
