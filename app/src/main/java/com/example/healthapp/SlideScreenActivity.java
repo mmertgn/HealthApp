@@ -93,7 +93,7 @@ public class SlideScreenActivity extends AppCompatActivity {
         @Override
         public void onPageSelected(int i) {
             addDotsIndicator(i);
-            if (i == 2){
+            if (i == 1){
                 mBtnSlideQuit.setVisibility(View.VISIBLE);
             }else {
                 mBtnSlideQuit.setVisibility(View.INVISIBLE);

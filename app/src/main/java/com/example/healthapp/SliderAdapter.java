@@ -29,7 +29,7 @@ public class SliderAdapter extends PagerAdapter {
     private String[] slide_headings = {
             "Akıllı Diyabetim",
             "Uygulama Hakkında",
-            "Başlık 3"
+            //"Başlık 3"
     };
 
     private String[] slide_decs = {
