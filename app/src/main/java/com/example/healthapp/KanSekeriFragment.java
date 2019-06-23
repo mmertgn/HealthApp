@@ -57,7 +57,7 @@ public class KanSekeriFragment extends Fragment {
         progressBar.setVisibility(View.VISIBLE);
         ArrayList<KanSekeri> list = getKanSekeriList(rootView);
 
-        mLstKanSekeri = rootView.findViewById(R.id.lstKamSekeri);
+        mLstKanSekeri = rootView.findViewById(R.id.lstKanSekeri);
         KanSekeriAdapter adapter = new KanSekeriAdapter(getActivity().getApplicationContext(), list);
         mLstKanSekeri.setAdapter(adapter);
 
@@ -151,7 +151,7 @@ public class KanSekeriFragment extends Fragment {
             mTxtTarih.setText(tarih);
             mTxtZamanDilimi.setText(zamanDilimi);
             mTxtKanSekeriDegeri.setText(kanSekeriDegeri);
-            mImgLogo.setImageResource(R.drawable.row_logo);
+            mImgLogo.setImageResource(R.drawable.blood34);
             mImgSeperator.setImageResource(R.drawable.row_seperator);
             mImgBackground.setImageResource(R.drawable.rectangle_1);
 

@@ -173,7 +173,7 @@ public class VkiFragment extends Fragment {
             mTxtKilo.setText(kilo);
             mTxtVkiEndeksi.setText(vkiEndeksi);
             mTxtVkiDurumu.setText(vkiDurumu);
-            mImgLogo.setImageResource(R.drawable.row_logo);
+            mImgLogo.setImageResource(R.drawable.deadlift34);
             mImgSeperator.setImageResource(R.drawable.row_seperator);
             mImgBackground.setImageResource(R.drawable.rectangle_1);
 

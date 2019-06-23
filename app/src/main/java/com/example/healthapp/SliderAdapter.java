@@ -27,14 +27,16 @@ public class SliderAdapter extends PagerAdapter {
     };
 
     private String[] slide_headings = {
-            "Başlık 1",
-            "Başlık 2",
+            "Akıllı Diyabetim",
+            "Uygulama Hakkında",
             "Başlık 3"
     };
 
     private String[] slide_decs = {
-            "Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir.1960'larda Lorem Ipsum pasajları da içeren Letraset yapraklarının yayınlanması ile ve yakın zamanda Aldus PageMaker gibi Lorem Ipsum sürümleri içeren masaüstü yayıncılık yazılımları ile popüler olmuştur.",
-            "Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir.1960'larda Lorem Ipsum pasajları da içeren Letraset yapraklarının yayınlanması ile ve yakın zamanda Aldus PageMaker gibi Lorem Ipsum sürümleri içeren masaüstü yayıncılık yazılımları ile popüler olmuştur.",
+            "Bu uygulama diyabet aplikasyonu diyabetli bireyin günlük hayatını yönetebilmesi için\n" +
+                    "rehber niteliğindedir.\n\n",
+            "Bireyin temel ihtiyaçları hakkında profesyonel öneriler ve sağlık " +
+                    "kaydı tutulması olanaklarını kullanıcılarına sağlar.\n\n",
             "Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir.1960'larda Lorem Ipsum pasajları da içeren Letraset yapraklarının yayınlanması ile ve yakın zamanda Aldus PageMaker gibi Lorem Ipsum sürümleri içeren masaüstü yayıncılık yazılımları ile popüler olmuştur."
     };
 

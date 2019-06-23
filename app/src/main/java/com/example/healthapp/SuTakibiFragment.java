@@ -163,8 +163,8 @@ public class SuTakibiFragment extends Fragment {
             ImageView mImgBackground = row.findViewById(R.id.imgBackGround);
 
             mTxtTarih.setText(tarih);
-            mTxtSuTakibi.setText(SuTakibi);
-            mImgLogo.setImageResource(R.drawable.row_logo);
+            mTxtSuTakibi.setText(String.valueOf(SuTakibi));
+            mImgLogo.setImageResource(R.drawable.water34);
             mImgSeperator.setImageResource(R.drawable.row_seperator);
             mImgBackground.setImageResource(R.drawable.rectangle_1);
 

@@ -165,7 +165,7 @@ public class TansiyonFragment extends Fragment {
             mTxtSaat.setText(saat);
             mTxtBuyukTansiyon.setText(buyukTansiyon);
             mTxtKucukTansiyon.setText(kucukTansiyon);
-            mImgLogo.setImageResource(R.drawable.row_logo);
+            mImgLogo.setImageResource(R.drawable.heart_34);
             mImgSeperator.setImageResource(R.drawable.row_seperator);
             mImgBackground.setImageResource(R.drawable.rectangle_1);
 

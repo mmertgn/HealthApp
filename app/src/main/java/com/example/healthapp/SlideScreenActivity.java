@@ -69,7 +69,7 @@ public class SlideScreenActivity extends AppCompatActivity {
     }
 
     public void addDotsIndicator(int position){
-        TextView[] mDots = new TextView[3];
+        TextView[] mDots = new TextView[2];
         mDotLayout.removeAllViews();
 
         for (int i = 0; i< mDots.length; i++){

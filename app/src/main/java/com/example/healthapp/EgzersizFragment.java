@@ -167,7 +167,7 @@ public class EgzersizFragment extends Fragment {
             mTxtTarih.setText(tarih);
             mTxtEgzersizTipi.setText(egzersizTipi);
             mTxtSure.setText(sure);
-            mImgLogo.setImageResource(R.drawable.row_logo);
+            mImgLogo.setImageResource(R.drawable.running_34);
             mImgSeperator.setImageResource(R.drawable.row_seperator);
             mImgBackground.setImageResource(R.drawable.rectangle_1);
 

@@ -161,7 +161,7 @@ public class Hba1cFragment extends Fragment {
             mTxtSaat.setText(saat);
             mTxtHba1c.setText(hba1c);
             mTxtYorum.setText(yorum);
-            mImgLogo.setImageResource(R.drawable.row_logo);
+            mImgLogo.setImageResource(R.drawable.diabetes34);
             mImgSeperator.setImageResource(R.drawable.row_seperator);
             mImgBackground.setImageResource(R.drawable.rectangle_1);
 
